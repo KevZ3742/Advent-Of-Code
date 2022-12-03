@@ -9,7 +9,7 @@ sack = ["", "", ""]
 
 counter = 0
 
-with open('RucksackReorganization.txt') as file:
+with open('Day3-RucksackReorganization.txt') as file:
     for line in file:
         line = line.split('\n')
 

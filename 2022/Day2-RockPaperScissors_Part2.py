@@ -1,6 +1,6 @@
 total = 0
 
-with open('RockPaperScissors.txt') as file:
+with open('Day2-RockPaperScissors.txt') as file:
     for line in file:
         line = line.split('\n')[0].split(' ')
 

@@ -7,7 +7,7 @@ for index, letter in enumerate(string.ascii_letters):
 sum = 0
 sack = ["", ""]
 
-with open('RucksackReorganization.txt') as file:
+with open('Day3-RucksackReorganization.txt') as file:
     for line in file:
         line = line.split('\n')
 
