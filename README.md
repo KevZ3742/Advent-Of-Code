@@ -1,5 +1,6 @@
 # Advent Of Code
-My Advent of Code solutions \n
+My Advent of Code solutions
+
 Site: https://adventofcode.com/
 
 Years:
