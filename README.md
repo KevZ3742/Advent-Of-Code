@@ -3,4 +3,4 @@ My Advent of Code solutions
 https://adventofcode.com/
 
 Years:
--2022
+- 2022
