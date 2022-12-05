@@ -11,9 +11,9 @@ counter = 0
 
 with open('Day3-RucksackReorganization.txt') as file:
     for line in file:
-        line = line.split('\n')
+        line = line.strip()
 
-        sack[counter] = line[0]
+        sack[counter] = line
 
         counter = counter + 1
 

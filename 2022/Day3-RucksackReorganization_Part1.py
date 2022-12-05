@@ -9,10 +9,10 @@ sack = ["", ""]
 
 with open('Day3-RucksackReorganization.txt') as file:
     for line in file:
-        line = line.split('\n')
+        line = line.strip()
 
-        sack[0] = line[0][:int(len(line[0])/2)]
-        sack[1] = line[0][int(len(line[0])/2):len(line[0])]
+        sack[0] = line[:int(len(line)/2)]
+        sack[1] = line[int(len(line)/2):len(line)]
 
         for var in range(len(sack[0])):
             if(sack[0][var] in sack[1]):

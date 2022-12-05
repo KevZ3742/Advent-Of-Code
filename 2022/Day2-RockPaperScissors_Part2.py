@@ -2,7 +2,7 @@ total = 0
 
 with open('Day2-RockPaperScissors.txt') as file:
     for line in file:
-        line = line.split('\n')[0].split(' ')
+        line = line.strip().split(' ')
 
         if line[0] == "A":
             line[0] = "X"
