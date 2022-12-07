@@ -7,3 +7,4 @@ def fourteenMarker(f):
             return i
 
 print(fourteenMarker(file))
+file.close()

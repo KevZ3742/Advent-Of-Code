@@ -7,3 +7,4 @@ def fourMarker(file):
             return i
 
 print(fourMarker(file))
+file.close()
